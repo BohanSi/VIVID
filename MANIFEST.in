@@ -1,5 +1,4 @@
 include README.md THIRD_PARTY_NOTICES.md
-recursive-include docs *.md *.json
 recursive-include environments *.yml
 recursive-include notebooks *.ipynb
 

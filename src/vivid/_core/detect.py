@@ -1,4 +1,4 @@
-# Migrated from 1002genertation.ipynb, cell 39. See docs/MIGRATION.md.
+# Migrated from 1002genertation.ipynb, cell 39. See README.md.
 import re, json, time, shutil
 import numpy as np
 import pandas as pd

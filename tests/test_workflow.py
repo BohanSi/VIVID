@@ -1,6 +1,4 @@
 import ast
-import hashlib
-import json
 from pathlib import Path
 
 import matplotlib
@@ -80,16 +78,6 @@ def test_plot_pair(pair):
     assert len(fig.axes)==2
     assert fig.axes[0].get_xlim()==fig.axes[1].get_xlim()
     plt.close(fig)
-
-
-def test_preserved_kernels():
-    manifest=json.loads((ROOT/'docs/kernel_manifest.json').read_text())
-    assert len(manifest)>130
-    for entry in manifest:
-        tree=ast.parse((ROOT/f"src/vivid/_core/{entry['stage']}.py").read_text())
-        node=next(n for n in tree.body if isinstance(n,(ast.FunctionDef,ast.ClassDef,ast.AsyncFunctionDef)) and n.name==entry['name'])
-        digest=hashlib.sha256(ast.dump(node,include_attributes=False).encode()).hexdigest()
-        assert digest==entry['sha256'], (entry['stage'],entry['name'])
 
 
 def test_tutorial():

@@ -1,4 +1,4 @@
-# Migrated from 1002genertation.ipynb, cell 47. See docs/MIGRATION.md.
+# Migrated from 1002genertation.ipynb, cell 47. See README.md.
 import json, time
 from pathlib import Path
 

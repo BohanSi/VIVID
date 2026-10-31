@@ -1,4 +1,4 @@
-# Migrated from 1002genertation.ipynb, cell 27. See docs/MIGRATION.md.
+# Migrated from 1002genertation.ipynb, cell 27. See README.md.
 if config["image_encoding_method"] in ["pca", "spherical"]:
 
     # ============================================================

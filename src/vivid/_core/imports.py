@@ -1,4 +1,4 @@
-# Migrated from 1002genertation.ipynb, cell 0. See docs/MIGRATION.md.
+# Migrated from 1002genertation.ipynb, cell 0. See README.md.
 import anndata as ad 
 import numpy as np 
 import os

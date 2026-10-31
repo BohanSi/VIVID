@@ -1,4 +1,4 @@
-# Migrated from 1002genertation.ipynb, cell 52. See docs/MIGRATION.md.
+# Migrated from 1002genertation.ipynb, cell 52. See README.md.
 import time, zlib
 import numpy as np
 import pandas as pd

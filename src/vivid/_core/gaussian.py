@@ -1,4 +1,4 @@
-# Migrated from 1002genertation.ipynb, cell 21. See docs/MIGRATION.md.
+# Migrated from 1002genertation.ipynb, cell 21. See README.md.
 # ============================================================
 # Gaussian smoothing of global T_count
 # Save PNG + NPZ

@@ -1,4 +1,4 @@
-# Migrated from 1002genertation.ipynb, cell 33. See docs/MIGRATION.md.
+# Migrated from 1002genertation.ipynb, cell 33. See README.md.
 if interpolation_model_names == ["GIMM"]:
     
     K=int(config["target_number"])

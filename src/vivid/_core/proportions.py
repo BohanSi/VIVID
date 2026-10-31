@@ -1,4 +1,4 @@
-# Migrated from 1002genertation.ipynb, cell 45. See docs/MIGRATION.md.
+# Migrated from 1002genertation.ipynb, cell 45. See README.md.
 import re
 import numpy as np
 import pandas as pd

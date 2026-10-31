@@ -1,4 +1,4 @@
-# Migrated from 1002genertation.ipynb, cell 36. See docs/MIGRATION.md.
+# Migrated from 1002genertation.ipynb, cell 36. See README.md.
 if interpolation_model_names == ["FILM"]:
 
     import re, sys, shutil, subprocess

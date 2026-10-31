@@ -1,4 +1,4 @@
-# Migrated from 1002genertation.ipynb, cell 25. See docs/MIGRATION.md.
+# Migrated from 1002genertation.ipynb, cell 25. See README.md.
 # ============================================================
 # 2. Context-aware Graph AutoEncoder
 # ============================================================

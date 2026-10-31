@@ -1,4 +1,4 @@
-# Migrated from 1002genertation.ipynb, cell 26. See docs/MIGRATION.md.
+# Migrated from 1002genertation.ipynb, cell 26. See README.md.
 if config["image_encoding_method"] == "gnn": 
 
     # ============================================================

@@ -1,4 +1,4 @@
-# Migrated from 1002genertation.ipynb, cell 24. See docs/MIGRATION.md.
+# Migrated from 1002genertation.ipynb, cell 24. See README.md.
 # ============================================================
 # 1. Imports + cell-level KNN graph dataset
 # ============================================================

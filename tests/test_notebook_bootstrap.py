@@ -1,4 +1,5 @@
 """Exercise the actual first cell in fresh interpreters without PYTHONPATH."""
+import ast
 import json
 import os
 from pathlib import Path
@@ -27,8 +28,17 @@ def test_first_cell_without_editable_install(location, tmp_path):
     assert str(ROOT/'src/vivid/__init__.py') in completed.stdout
 
 
-def test_tutorial_manual_solver_setting():
+def test_tutorial_uses_required_gurobi():
     notebook=json.loads((ROOT/'notebooks/VIVID_tutorial.ipynb').read_text())
     cell=next(''.join(c['source']) for c in notebook['cells'] if c['cell_type']=='code' and 'run = vivid.configure' in ''.join(c['source']))
-    assert 'OPTIMIZATION_SOLVER = "gurobi"' in cell
-    assert 'optimization_solver=OPTIMIZATION_SOLVER' in cell
+    tree=ast.parse(cell)
+    call=next(n for n in ast.walk(tree) if isinstance(n,ast.Call)
+              and isinstance(n.func,ast.Attribute) and n.func.attr=='configure')
+    solver=next(k.value for k in call.keywords if k.arg=='optimization_solver')
+    if isinstance(solver,ast.Name):
+        assignments={target.id:node.value.value for node in tree.body
+                     if isinstance(node,ast.Assign) and isinstance(node.value,ast.Constant)
+                     for target in node.targets if isinstance(target,ast.Name)}
+        assert assignments[solver.id]=='gurobi'
+    else:
+        assert isinstance(solver,ast.Constant) and solver.value=='gurobi'

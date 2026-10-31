@@ -1,4 +1,4 @@
-# Migrated from 1002genertation.ipynb, cell 50. See docs/MIGRATION.md.
+# Migrated from 1002genertation.ipynb, cell 50. See README.md.
 import time, zlib
 from pathlib import Path
 

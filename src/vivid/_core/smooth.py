@@ -1,4 +1,4 @@
-# Migrated from 1002genertation.ipynb, cell 22. See docs/MIGRATION.md.
+# Migrated from 1002genertation.ipynb, cell 22. See README.md.
 # ============================================================
 # 3. RUN
 

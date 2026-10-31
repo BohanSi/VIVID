@@ -1,4 +1,4 @@
-# Migrated from 1002genertation.ipynb, cell 30. See docs/MIGRATION.md.
+# Migrated from 1002genertation.ipynb, cell 30. See README.md.
 if interpolation_model_names == ["RIFE"]:  
     
     def find_min_n_by_search(K, threshold=0.02):

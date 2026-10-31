@@ -1,4 +1,4 @@
-# Migrated from 1002genertation.ipynb, cell 13. See docs/MIGRATION.md.
+# Migrated from 1002genertation.ipynb, cell 13. See README.md.
 from scipy.spatial import cKDTree
 
 def compute_characteristic_spacing(adata, spatial_key="spatial"):

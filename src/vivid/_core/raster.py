@@ -1,4 +1,4 @@
-# Migrated from 1002genertation.ipynb, cell 14. See docs/MIGRATION.md.
+# Migrated from 1002genertation.ipynb, cell 14. See README.md.
 def compute_global_grid_fixed_shape(
     anndata_dict,
     spatial_key="spatial",

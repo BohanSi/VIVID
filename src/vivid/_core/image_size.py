@@ -1,4 +1,4 @@
-# Migrated from 1002genertation.ipynb, cell 6. See docs/MIGRATION.md.
+# Migrated from 1002genertation.ipynb, cell 6. See README.md.
 from scipy.spatial import cKDTree
 
 def infer_bin_spacing(adata, spatial_key="spatial"):
