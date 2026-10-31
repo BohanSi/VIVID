@@ -1,0 +1,7 @@
+# The upstream requirements are pinned to Python 3.7. Keep this environment separate.
+name: gimmvfi
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pip

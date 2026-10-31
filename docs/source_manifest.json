@@ -1,0 +1,89 @@
+{
+  "notebook_sha256": "667ca8bc3474079029279c380901461c5335b505a66b22369538a30c14b4ff5f",
+  "stages": {
+    "imports": {
+      "cell": 0,
+      "original_sha256": "72b58d6a00b83c9c81d3026251ae2205f16dd78909a4e3c0d6e02b6884e41085"
+    },
+    "image_size": {
+      "cell": 6,
+      "original_sha256": "8ca831005bae0542b6aeeae056364bfd2e4955951ae6f976760f9df781c4ec3b"
+    },
+    "diagnostics": {
+      "cell": 13,
+      "original_sha256": "c395004519019e2d98ecb19e591f4ed9d0259d35436781dfa350a5ffdc11a02e"
+    },
+    "raster": {
+      "cell": 14,
+      "original_sha256": "344cdef223ce5640db0e26e6d8a39379ef30585702830093532933fbfa27a572"
+    },
+    "gaussian": {
+      "cell": 21,
+      "original_sha256": "3160e0a7f24c941a7f412a0378802dd6af8f39ab694ba979ee938e706480442d"
+    },
+    "smooth": {
+      "cell": 22,
+      "original_sha256": "ac1fa293fca813a5f0146957ba0299c0a33f5079d585e6fa2019544f98a7d062"
+    },
+    "graph_data": {
+      "cell": 24,
+      "original_sha256": "3062193e614dfda9791be3a43b041808352fa0e4f9c5fd0bd95ea712feb6b7c8"
+    },
+    "graph_model": {
+      "cell": 25,
+      "original_sha256": "d68d25fe93400e77564881ca7f38152f3666a37230ce068b66ce1181daf3a615"
+    },
+    "encode_gnn": {
+      "cell": 26,
+      "original_sha256": "d63e61f218a1a8ccc3803f8f005257e39a84a954a29254e00c79183fa331409a"
+    },
+    "encode_static": {
+      "cell": 27,
+      "original_sha256": "6d903b05cd94ca55a6766a7c7eda98601e214361f1667bc1f1cce568df6b227d"
+    },
+    "interpolate_rife": {
+      "cell": 30,
+      "original_sha256": "dc042baf3a8451b9a3989586261c15157ae83f3380f144e07baf545176e682e5"
+    },
+    "interpolate_gimm": {
+      "cell": 33,
+      "original_sha256": "64c43e9854ad0d02ca3ae170048f9fb93d0f95a770ad180cd04145c4a7685097"
+    },
+    "interpolate_film": {
+      "cell": 36,
+      "original_sha256": "bf2c5e36187327cc1e6c7f710fb5636ce5f539d3d3d629d5d715ff928c6b1c7d"
+    },
+    "detect": {
+      "cell": 39,
+      "original_sha256": "07d317d248ef813b1241d71ac6158289db93dd278450365806cbf6eed53896ae"
+    },
+    "proportions": {
+      "cell": 45,
+      "original_sha256": "6271d8a0dc0fc7977a8e845aefe1b1ad53900561be73e67db1b22d1ca09de114"
+    },
+    "optimize": {
+      "cell": 47,
+      "original_sha256": "c841045dd186b6a3c06a0a965bddd8dc4acdd2d50bee15ed7a73c41eaf0ae117"
+    },
+    "coordinates": {
+      "cell": 50,
+      "original_sha256": "d0e4871920f4182373db97424e9380d07e9c775bd0d59dad449f16df58b8aebc"
+    },
+    "depth": {
+      "cell": 52,
+      "original_sha256": "e534f7f6e9f978d78d84fbe3800e208778e0815e16a39b54981b5245e38fc5a3"
+    },
+    "anndata": {
+      "cell": 57,
+      "original_sha256": "a37a448f527069afa368e26bee0a7a24f8d6c7ec35d4b96c5530a7010160b362"
+    },
+    "expression_imports": {
+      "cell": 60,
+      "original_sha256": "529eb8f799100a69669bee092ae32cd49661882fdd8262df2ae38a1061f647e1"
+    },
+    "expression": {
+      "cell": 61,
+      "original_sha256": "8591da31c843a7dc668c3c7c69f02f1b17122324ebaac9871251ec1055b26e25"
+    }
+  }
+}

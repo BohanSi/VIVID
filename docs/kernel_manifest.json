@@ -1,0 +1,1098 @@
+[
+  {
+    "stage": "image_size",
+    "name": "infer_bin_spacing",
+    "sha256": "ad77dd9c38bf33078dc2596490b8f1a255af595c3de4708debb33c9b2d85b1e9",
+    "change": "Unchanged.",
+    "original_sha256": "ad77dd9c38bf33078dc2596490b8f1a255af595c3de4708debb33c9b2d85b1e9",
+    "structure_sha256": "12a726bcf41feaf4d4c2c9eecc6f818a43f90b40c1ea15ba11a201419b767b7a"
+  },
+  {
+    "stage": "diagnostics",
+    "name": "compute_characteristic_spacing",
+    "sha256": "592c1d0910279a31c3ef80ffa77222df5d203f04988a37c56ce9d0dc9f75fa9d",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "bf98d6c66306b68120ec3fba1e946a86ee856ca9a5ce7b508820c64ab0816a9a",
+    "structure_sha256": "4c855e6dcdd4bc4dc0cea74c125e4fcde4918e901399a775ee765b9184155829"
+  },
+  {
+    "stage": "diagnostics",
+    "name": "compute_raster_diagnostics",
+    "sha256": "205284ef95b5fa7314125c4e7f14eb482d706d55943812387e1692f0eb15c4a0",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "2b1632ce9ed19ade9aa16001d7d13f9126760fa579add62bb5d50ac8e420366c",
+    "structure_sha256": "a4aca0d2f34815a4ad82b2b2267d70356ebcbd099838e6c4e90393dfa1591e8e"
+  },
+  {
+    "stage": "diagnostics",
+    "name": "compute_nn_spacing_pixels",
+    "sha256": "df5e26f2c3c370a70051350782f19b32935f6b17eadaae09edfcbf6f5d9b743b",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "11b36c0d338a954742b4b8d94267109bd6c69ac00c34b1b10b2551c1aee71a84",
+    "structure_sha256": "db9b9a3a2f59685aae77d99045588404ba609a2a93babba881eadd70f5d9bcb6"
+  },
+  {
+    "stage": "raster",
+    "name": "compute_global_grid_fixed_shape",
+    "sha256": "6722da937b5137c295ed1945f1d0f299d8d7da6dea0cb78e3aee693fe3f25324",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "2cbd590f73f4cb4639e68ee6a5a72afd41afae0a5b56ee7bbeeead7509dcbf00",
+    "structure_sha256": "4c4810874110ca3d8d0d0ca149970c9ab37e40ee2ab537f6666f3d11bfc95cc3"
+  },
+  {
+    "stage": "raster",
+    "name": "get_global_celltypes",
+    "sha256": "795a680d8da0569cde515c23b4b71478306c5cc290e85fa0c993fb43d9568d33",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "b2a9a5f962a77e4a750dc128d755df1c5b302e83813cd43bc5be8f14df0e8974",
+    "structure_sha256": "eb3acf42cd7c3fa6fb94a52231a2d07d49cbeb0d658ce80effc8e0a30ecebb35"
+  },
+  {
+    "stage": "raster",
+    "name": "rasterize_one_slice_fixed_shape",
+    "sha256": "c154f63eedbf4bbf0c2eeb46aa296aff0a8d722188d0abaca2b1f628b659c19c",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "34863880c64f27a3daad89b75febada951de9f7e8a626feab175f57143b8f66a",
+    "structure_sha256": "f2fb3d2a115a975946d1a0fba1dfc43f54934c97abc8fde7f54d06d54c9fa5e9"
+  },
+  {
+    "stage": "raster",
+    "name": "build_fixed_shape_density_tensors",
+    "sha256": "af74337af7f02c51cbd6fb1685a04a841d9057770afd05f6685ed3505b4d1d00",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "d0ea85d87f67518b1d6713eeb6362d02a76f0e7010819a1c1ef5f70726bdfccf",
+    "structure_sha256": "2e03a57f455e838d7a7ed5fbb6743f3b60b3a417b765f184c8edc83971d3295b"
+  },
+  {
+    "stage": "raster",
+    "name": "pixel_to_spatial",
+    "sha256": "93be7363c402f1d4d06d71dfde7f2efa1f57fd21dfb4a721a50da5c30531f511",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "a20d5f979a64415a0b2cbf485fa2b99cd8f39ac30617f96454af59a6fbd524bd",
+    "structure_sha256": "3a6282141a15be239332daf3062065dfa2740655cd2017de90f6fea596230a81"
+  },
+  {
+    "stage": "raster",
+    "name": "spatial_to_pixel",
+    "sha256": "9f13d449ed2cd3d60f8ba0e6cdc1792c440c41555510c5042dd9812cff06fa68",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "1a40f5a085cfe0e948c66c4041b2a4dee93942378b50cefe3ebc37aa7b4097ee",
+    "structure_sha256": "8ee585f5407d71598ee7f287d3d885feb57fee677afd872492600568cc97b197"
+  },
+  {
+    "stage": "raster",
+    "name": "safe_filename",
+    "sha256": "26680941bb75a95f7ecb33658a3f5cf0600a1d84b3d05fd985d9b9ccced6e061",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "9231e22e9e244710f8fae4c77068ceb8192453b85f3074deeb02fed92eae81cd",
+    "structure_sha256": "a754c9a3cfa43d7f94bb66c26d84b0e0c79dc539716e9b581666123260c76375"
+  },
+  {
+    "stage": "raster",
+    "name": "save_all_density_outputs",
+    "sha256": "174bce7a0c2f0adf36f2f83f337054cfe34cc9fd7367701bbc03532383951c85",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "ba92025837c9ff72d08252a72973da78a04209edca476ae0e717ef9e83cccb84",
+    "structure_sha256": "28e932007dfe64009be28548daa2530cfe8eb8004d7b75155d58967a8280170b"
+  },
+  {
+    "stage": "raster",
+    "name": "load_global_meta",
+    "sha256": "d5f9ba70e2239bcf8f6383010afba224800d2abf01525789b96ed85936df36ac",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "c0a3da5973a5cd5fd8289432255acc6efb00af5ce7c11be2ccfdb2305ce8bf8b",
+    "structure_sha256": "9167bbbf73d76d9798e23decdab1b804c47e1199280602be7f41fca1555f6c43"
+  },
+  {
+    "stage": "raster",
+    "name": "load_one_density_npz",
+    "sha256": "7010a4e66e6c47a77ffd0ee7edfc79d7fe365d9359c44aa7c5045a234eff8cf7",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "89c9da7236fd960bcfb7b946a5d72981e87cc775dd5f01aa7c2b612e8db515ed",
+    "structure_sha256": "a2b619232e214f159234731b752f69ae43edaaacc70df99c1900c69ead035433"
+  },
+  {
+    "stage": "raster",
+    "name": "load_all_density_outputs",
+    "sha256": "0659a8550a1302b4efb5968e11a32cf689498e638b00c1b1c1fbb6d994fc4b6f",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "c6b851c12041ff9a11b1f1bda0c4f17733ae1804c8ff1f903e340acc91b875f7",
+    "structure_sha256": "79b6de7433e4552ee771da724cdc9735763a528b83c338563ac7daeb4510f6c7"
+  },
+  {
+    "stage": "gaussian",
+    "name": "sanitize_name",
+    "sha256": "b72723f953592c24894a8c09b16f668bfc1f9abc6b3e7a8356d0186cb8cda399",
+    "change": "Unchanged.",
+    "original_sha256": "b72723f953592c24894a8c09b16f668bfc1f9abc6b3e7a8356d0186cb8cda399",
+    "structure_sha256": "a948f859d1cb4ecb20eba063935223dd4b65f02198dc8ad1b410c1faa7ff2ce9"
+  },
+  {
+    "stage": "gaussian",
+    "name": "make_slice_name",
+    "sha256": "f4ab639a86dd18291254a195cadf0cd0f13563e19665e244ad5bc63ddd5c9a90",
+    "change": "Unchanged.",
+    "original_sha256": "f4ab639a86dd18291254a195cadf0cd0f13563e19665e244ad5bc63ddd5c9a90",
+    "structure_sha256": "f934585a65eb1a01f69fe20ccd89fe384322baf3f28d56aa8b507e92f48c3856"
+  },
+  {
+    "stage": "gaussian",
+    "name": "gaussian_smooth_preserve_sum",
+    "sha256": "474e15a9511bc454bf127f7bea901266939bacb1e4477f5676971ef39cd0eb4e",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "58e8a22b991ca1fbc0d937586119e47a59d8a5aec442352ddb3696adde77042a",
+    "structure_sha256": "cf61c8152b8bf9fa1340e985acbd3dec35041b50577b30807768de3e41a92733"
+  },
+  {
+    "stage": "gaussian",
+    "name": "density_to_rgb_uint8",
+    "sha256": "524b73d983ae60a4c78f590f6cad2147d226b243b1e5ddd1e1a287f9d68b4fae",
+    "change": "Unchanged.",
+    "original_sha256": "524b73d983ae60a4c78f590f6cad2147d226b243b1e5ddd1e1a287f9d68b4fae",
+    "structure_sha256": "386ee8ff81f8291bb132e2399437f98530ad005e37365e3cdfdce42ecfed4c9c"
+  },
+  {
+    "stage": "gaussian",
+    "name": "gaussian_smooth_and_save_global_density",
+    "sha256": "96bdb6d26db4a8ab0dcac591249edddd860b54c52bde28a654a48d1d31544310",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "c619c2ea219b73b42add718fc66d887dedd2e4f9fab62f83ad3f7ec9fa636131",
+    "structure_sha256": "defa06aff98be9d35179c370b9972b22c7e0288eec14036007b5f492e9e4974c"
+  },
+  {
+    "stage": "graph_data",
+    "name": "seed_worker",
+    "sha256": "851d314e46f6124984b37546b8277fc1a5ec205a3fd33eef9d11cd99cc714fb1",
+    "change": "Unchanged.",
+    "original_sha256": "851d314e46f6124984b37546b8277fc1a5ec205a3fd33eef9d11cd99cc714fb1",
+    "structure_sha256": "851d314e46f6124984b37546b8277fc1a5ec205a3fd33eef9d11cd99cc714fb1"
+  },
+  {
+    "stage": "graph_data",
+    "name": "safe_filename",
+    "sha256": "e26a38338e0781ec720d43886fe6179386eae9a408e22e7ec8a14465bc025a94",
+    "change": "Unchanged.",
+    "original_sha256": "e26a38338e0781ec720d43886fe6179386eae9a408e22e7ec8a14465bc025a94",
+    "structure_sha256": "b3487fc9ee832f8fccfcbe4476a75f9816544e05d8cf2da1af7de95f1477c351"
+  },
+  {
+    "stage": "graph_data",
+    "name": "average_loss_dict",
+    "sha256": "cb06ba123633e5b18d31610dfad42d4961aae72f9e34fce09ab89fe53401cde3",
+    "change": "Unchanged.",
+    "original_sha256": "cb06ba123633e5b18d31610dfad42d4961aae72f9e34fce09ab89fe53401cde3",
+    "structure_sha256": "cb06ba123633e5b18d31610dfad42d4961aae72f9e34fce09ab89fe53401cde3"
+  },
+  {
+    "stage": "graph_data",
+    "name": "compute_cell_knn_context",
+    "sha256": "06da9d36a85f609e1555f5dadedcf5a97f35ae0224893ea5e30a70dc86aef653",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "cf11b75b633a5d9c94d21807b2cdea0e282b79a3db092095329291155155d479",
+    "structure_sha256": "14dac4b4b41628e6657633a4d072000f1ba7321a656562749c4f20028a087275"
+  },
+  {
+    "stage": "graph_data",
+    "name": "ContextCellDataset",
+    "sha256": "3e72d2a821405809f3dd56d122f5b8f2bf687bbf04786b7cbf57e5f97d690a81",
+    "change": "Unchanged.",
+    "original_sha256": "3e72d2a821405809f3dd56d122f5b8f2bf687bbf04786b7cbf57e5f97d690a81",
+    "structure_sha256": "0d06f957a83a6e276920a852f2bcee2967928db6e30c0c791810f5da78293a80"
+  },
+  {
+    "stage": "graph_data",
+    "name": "stratified_train_val_indices",
+    "sha256": "e25c23f998b2fd9507618d526e2befca1c036b05889840d20c90cadd98c44356",
+    "change": "Unchanged.",
+    "original_sha256": "e25c23f998b2fd9507618d526e2befca1c036b05889840d20c90cadd98c44356",
+    "structure_sha256": "e25c23f998b2fd9507618d526e2befca1c036b05889840d20c90cadd98c44356"
+  },
+  {
+    "stage": "graph_model",
+    "name": "MLPBlock",
+    "sha256": "4816e358126d0c9188ee9e70828c407bcc89a34ef8940352b5cac8bad4efd109",
+    "change": "Unchanged.",
+    "original_sha256": "4816e358126d0c9188ee9e70828c407bcc89a34ef8940352b5cac8bad4efd109",
+    "structure_sha256": "4816e358126d0c9188ee9e70828c407bcc89a34ef8940352b5cac8bad4efd109"
+  },
+  {
+    "stage": "graph_model",
+    "name": "initialize_rgb_prototypes",
+    "sha256": "9dab9d17b88fb58a705e07ebbd97afe9924e6d9f3ef2d8098729282913d622e9",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "d6533c7cc4b7c6ae56508ed64d7bad80580cb5c1c323112a73aebe2a57e47666",
+    "structure_sha256": "630c1300b8c3cded38d1f325c5cc2b052d389cd73354a6167c318e94b655e91a"
+  },
+  {
+    "stage": "graph_model",
+    "name": "ContextGraphAutoEncoder",
+    "sha256": "ff821681a910d0a1271eada8fb53dc7241e0a4f3eaba1550c7a16cc3254aaf4f",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "75d822a79abc6c90723f888e7802238575e6895026d468f5a816dd3fe77b4bff",
+    "structure_sha256": "95491d6e371b98fcde028c220f1350ba1d1a3af2c1b16bfd78538566a5a94548"
+  },
+  {
+    "stage": "graph_model",
+    "name": "ContextGraphAELoss",
+    "sha256": "3de4782e1855c94e021efe188f1a4338bd19701fb2ad513c7526b28da171284b",
+    "change": "Unchanged.",
+    "original_sha256": "3de4782e1855c94e021efe188f1a4338bd19701fb2ad513c7526b28da171284b",
+    "structure_sha256": "7adc769653ad8f8be8db6d3c363e483444b5ad3b88a05b532e5d61a47e9fff54"
+  },
+  {
+    "stage": "graph_model",
+    "name": "train_context_graph_autoencoder",
+    "sha256": "1c9f2b98c4b707f483ae06ff6e342af3630614856233b578b8a59e653b362fa7",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "20f4a7f99dc0ecba8af9135ce78992b0815b034145489eff47ee968304bf719f",
+    "structure_sha256": "0266dd1b8d1849786d6a5dcb0361262337f2ea279b7c451b542ee50c53f8c4fa"
+  },
+  {
+    "stage": "graph_model",
+    "name": "load_dominant_type_autoencoder",
+    "sha256": "171affb3428e5a356fc2d81cdfdf9f8811ca3c9b309de0b6d8334b789c2faf66",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "d5159e02abbcba6df9084ff8d21be89e55a88dd51a3f3a904175357a20d5b30f",
+    "structure_sha256": "a4ffd1980b54c7eae2d69dd60b8ab935959be29a06f56cd4e9ecbb02c852c027"
+  },
+  {
+    "stage": "detect",
+    "name": "fg_natural_key",
+    "sha256": "a32b0cef085a01f5430764c73cf87461520181d3cf684f1a8e9071b9c6a79585",
+    "change": "Unchanged.",
+    "original_sha256": "a32b0cef085a01f5430764c73cf87461520181d3cf684f1a8e9071b9c6a79585",
+    "structure_sha256": "b1daf8fa831fb84266d757fedcfe35f4637fde07f5964e062998e9a0d2fdf106"
+  },
+  {
+    "stage": "detect",
+    "name": "fg_img_index",
+    "sha256": "b114713101f5946814166c65442b938da0c9d14c03d9efbf2d16eb673afe6717",
+    "change": "Unchanged.",
+    "original_sha256": "b114713101f5946814166c65442b938da0c9d14c03d9efbf2d16eb673afe6717",
+    "structure_sha256": "ff0f8c2f54bfa4bf06567d4084471d895fd80f747fc8bf9010fb1649128157b6"
+  },
+  {
+    "stage": "detect",
+    "name": "fg_build_gaussian_npz_lookup",
+    "sha256": "7665cba73e70d4036acc0bed2f44c58f82797669414abd84b35598c13f1d9722",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "c44a6fad809ac668a8d8e76671498b0fa7df33502c63318cfd1248d72cd40b09",
+    "structure_sha256": "43ce1392be8578ca0c596b0557528690c5001a0d2e54735d347885ee6663b5a1"
+  },
+  {
+    "stage": "detect",
+    "name": "fg_load_gaussian_density",
+    "sha256": "b267a68f8c4dbc2bf908a7d2c32965e13c11bcf34eecbb2755233ceadddfcadd",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "b5b8292c339cb7a3c63e3ae034c98afe8cb75e7d38c45610adfe8bda28e90e7c",
+    "structure_sha256": "053e9883ec2c27363c42e185f04cea059bee54e92e7b5739be2891a0b724233f"
+  },
+  {
+    "stage": "detect",
+    "name": "fg_get_pair_frames",
+    "sha256": "bd2deb9aa0e263b8eea09c44508bd7b586ee2419b96115c57692b97ed3778e36",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "5bba7200e12659ecc9b8e10e5b9d1c2787464d93df6893b12f31a5447e86cce2",
+    "structure_sha256": "801da884526756257d5321773fe2c9388dbde591a3dcb2d9faa91eb9c3414cc7"
+  },
+  {
+    "stage": "detect",
+    "name": "fg_get_frame_image_path",
+    "sha256": "cdebad3b3f6fd30fa87dd19ec48bc4a3edf5e9faca2ee2778261c178f1fcc2ee",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "f54c936761eff5a8557b2c6c272beaa0da0ba8b059526c7e8d5c0d5a383741bb",
+    "structure_sha256": "e27c699b0e154d624908a9eda04a94c95d3dee29303c458c538b7bc68ad2586b"
+  },
+  {
+    "stage": "detect",
+    "name": "fg_bilinear_sample",
+    "sha256": "d1a6cdc67f880bff20f21818d74917c584436c9720b70b0ffd31e13b941382b9",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "7b27ead3da7310e3c5b72e21efcbe4bd5c8da620d0c8a4dce9d4792a4d6b607b",
+    "structure_sha256": "ceb03c03bfda28a9d7049f166c62e97f8a62b042f81cc60e100dda12c505d589"
+  },
+  {
+    "stage": "detect",
+    "name": "fg_build_one_intermediate_density",
+    "sha256": "c0ef8f8a236f6dd920882a2cff65ae0a28ce1f91724aa31d41833db51ccc2990",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "c638ae42855cee0a4457f36a3c4a5ce5f704764b6adc0df65f0b10cea313a2c4",
+    "structure_sha256": "03f08c7c39508fdfd5b9a41e23e1b36d0b3523f19dae04613618f29234ce7a91"
+  },
+  {
+    "stage": "detect",
+    "name": "build_all_intermediate_gaussian_targets",
+    "sha256": "25165de149198f04c8b0ac05bdafe6b1f0dbbe28fd7ebc4b1c5894ed83d281b6",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "00b28c90e5f193cb63a00a46bbb8f23abf10fadd6f9f3f7a08c685615dd7ff7f",
+    "structure_sha256": "1ba2f763c1bc7df75ef2f6a928465ed8a35dda35f9b3b5a67790dc8453e3e065"
+  },
+  {
+    "stage": "detect",
+    "name": "gd_load_detection_rgb",
+    "sha256": "3620df2f9a9dfbbe47bd8f04198d80a5eeb1cd565ad1a76c73e7644ce36276bf",
+    "change": "Unchanged.",
+    "original_sha256": "3620df2f9a9dfbbe47bd8f04198d80a5eeb1cd565ad1a76c73e7644ce36276bf",
+    "structure_sha256": "2fdaefd805a110ae8de8b7585de7e4b0bf45ec9282c4389d24b402fe1401486e"
+  },
+  {
+    "stage": "detect",
+    "name": "gd_resolve_background_mode",
+    "sha256": "68327e4bc029a5deb1f2f67ad4156b31799485963afe0c12f3f691b2484eec19",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "0b9a91d18368e0bff91a1c365cb7aed36a0ceac0911038138655a294f3efcdda",
+    "structure_sha256": "7460740b65e3f900e62d1f476caa2f4f2b55a1267d64ac269e78b3568e1715a0"
+  },
+  {
+    "stage": "detect",
+    "name": "gd_rgb_foreground_score",
+    "sha256": "2944f2026bace28e0e034d8897d2ff2e8b19968d47d990a84f032531d420b3c1",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "bc6fb6c42ff99c74b7b39fc2e724ed44244de89847e3fba8827a26aec08df247",
+    "structure_sha256": "de8c20ff2de0b200d50c26f0d751709ab46020b5d1d6b0795cf84fad07a14fdb"
+  },
+  {
+    "stage": "detect",
+    "name": "gd_rgb_color_gradient",
+    "sha256": "f6b20b2e5ea8885093d41aae146a01afcbd495d51d983d28b288ed52b406fff7",
+    "change": "Unchanged.",
+    "original_sha256": "f6b20b2e5ea8885093d41aae146a01afcbd495d51d983d28b288ed52b406fff7",
+    "structure_sha256": "f6b20b2e5ea8885093d41aae146a01afcbd495d51d983d28b288ed52b406fff7"
+  },
+  {
+    "stage": "detect",
+    "name": "gd_structure",
+    "sha256": "6ffda263a110a8d96f395762d21a0c93e3e701a536a12d0a2204088cd9adc082",
+    "change": "Unchanged.",
+    "original_sha256": "6ffda263a110a8d96f395762d21a0c93e3e701a536a12d0a2204088cd9adc082",
+    "structure_sha256": "71ef7f5409705567427941d09595634e9d3a7c9151780754f69d9bd54c072eb9"
+  },
+  {
+    "stage": "detect",
+    "name": "gd_remove_small_components",
+    "sha256": "6780beacc9abe95bb97fc7ccb4ad0911d6da6dfa789d64737a3c1f635cb94b20",
+    "change": "Unchanged.",
+    "original_sha256": "6780beacc9abe95bb97fc7ccb4ad0911d6da6dfa789d64737a3c1f635cb94b20",
+    "structure_sha256": "6780beacc9abe95bb97fc7ccb4ad0911d6da6dfa789d64737a3c1f635cb94b20"
+  },
+  {
+    "stage": "detect",
+    "name": "gd_normalize_in_mask",
+    "sha256": "7ee8d1d9955e997ccf33e1c17fa37dda0562ebaaa3cd26525e50aa506684acbb",
+    "change": "Unchanged.",
+    "original_sha256": "7ee8d1d9955e997ccf33e1c17fa37dda0562ebaaa3cd26525e50aa506684acbb",
+    "structure_sha256": "7ee8d1d9955e997ccf33e1c17fa37dda0562ebaaa3cd26525e50aa506684acbb"
+  },
+  {
+    "stage": "detect",
+    "name": "gd_build_markers",
+    "sha256": "39a042d7e9a83bb94ca9270b0e43c690ea012bb5662b704a947fc0d17486fd09",
+    "change": "Unchanged.",
+    "original_sha256": "39a042d7e9a83bb94ca9270b0e43c690ea012bb5662b704a947fc0d17486fd09",
+    "structure_sha256": "39a042d7e9a83bb94ca9270b0e43c690ea012bb5662b704a947fc0d17486fd09"
+  },
+  {
+    "stage": "detect",
+    "name": "gd_watershed_rgb",
+    "sha256": "819ed86f1d45f65d473d9b70a11a320b84ec01804a582e0543364995bef86c76",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "d8a04d4b3de6f87dc3b0701e10d19a34a8a4abd5bf32bd997bfaa09b2178657c",
+    "structure_sha256": "1ad2fcf32a8e2c39adcf580533917dcbb349ef3fea90ab05ee6c49c5360782b6"
+  },
+  {
+    "stage": "detect",
+    "name": "gd_extract_region_centers",
+    "sha256": "1dbb9f01e56a42c32f6665f1a62f075134c4135f791e3770436e87a76e2d15d1",
+    "change": "Unchanged.",
+    "original_sha256": "1dbb9f01e56a42c32f6665f1a62f075134c4135f791e3770436e87a76e2d15d1",
+    "structure_sha256": "e6026ef341bf5a65ce3646293f59cd6dcab5369afe555c406cb36c91dcfde61f"
+  },
+  {
+    "stage": "detect",
+    "name": "_gd_make_disk_offsets_cached",
+    "sha256": "1c80157383e103cf63e7bfc1ae1a565b9f4de0853ce18e707a09b39d3385e1de",
+    "change": "Unchanged.",
+    "original_sha256": "1c80157383e103cf63e7bfc1ae1a565b9f4de0853ce18e707a09b39d3385e1de",
+    "structure_sha256": "1c80157383e103cf63e7bfc1ae1a565b9f4de0853ce18e707a09b39d3385e1de"
+  },
+  {
+    "stage": "detect",
+    "name": "gd_make_disk_offsets",
+    "sha256": "becd553e00aa57836735dddee953ea8bbd2a7c4d09ead9d5671946270633ae18",
+    "change": "Unchanged.",
+    "original_sha256": "becd553e00aa57836735dddee953ea8bbd2a7c4d09ead9d5671946270633ae18",
+    "structure_sha256": "becd553e00aa57836735dddee953ea8bbd2a7c4d09ead9d5671946270633ae18"
+  },
+  {
+    "stage": "detect",
+    "name": "gd_expand_neighborhood_pixels",
+    "sha256": "fcdd12b360c70835494be8ec5f28b8bbd52e3a9427acc93f7f96c9832aaaaa76",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "2ba81b7fd661188dfba54cdce242aa10f7bee9c20c5bbb175132f6a9b066a365",
+    "structure_sha256": "b73bed9ba1df11aeb426dad4cc2acecfd54c0ae2f09ef40635c12c189de1ceaf"
+  },
+  {
+    "stage": "detect",
+    "name": "gd_build_shared_owner_count",
+    "sha256": "33809d7d0abc7ffd86a7810eb12464ea494c089dd721dcfd6080ec5cd8797554",
+    "change": "Unchanged.",
+    "original_sha256": "33809d7d0abc7ffd86a7810eb12464ea494c089dd721dcfd6080ec5cd8797554",
+    "structure_sha256": "33809d7d0abc7ffd86a7810eb12464ea494c089dd721dcfd6080ec5cd8797554"
+  },
+  {
+    "stage": "detect",
+    "name": "gd_round_half_up_nonnegative",
+    "sha256": "c312272f4678030b1d1946547625b72daa5823b74587266957f8c7178e1c54ce",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "507ae2c0d9e81a8fd6d1f0d7e8ebd0df984923a1f1d000240dc5a79873bfc8ef",
+    "structure_sha256": "5c9506ee6c34d9301119c4ab72eafb478c86933f66c6d039005abe1f4cbf699d"
+  },
+  {
+    "stage": "detect",
+    "name": "gd_balanced_round_to_total",
+    "sha256": "e623b4c223f511e0e43ee1770a9bd4e4be6c2f83360020a839f595f75a4417b9",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "4d62dc5a3f2454eaf34537a8066b1ff584f4ae4e80d0753c89769db9237da66f",
+    "structure_sha256": "1c02a1a625dc6c712db7eaf939451e08adf8de86ed8b3f87f2d541bef0725239"
+  },
+  {
+    "stage": "detect",
+    "name": "gd_continuous_to_nearest_pixel",
+    "sha256": "c631434397bb37a17e0ed8ee7e6bb433fc865313f1c37032d8c23b7990fde21e",
+    "change": "Unchanged.",
+    "original_sha256": "c631434397bb37a17e0ed8ee7e6bb433fc865313f1c37032d8c23b7990fde21e",
+    "structure_sha256": "c631434397bb37a17e0ed8ee7e6bb433fc865313f1c37032d8c23b7990fde21e"
+  },
+  {
+    "stage": "detect",
+    "name": "_gd_endpoint_indices_cached",
+    "sha256": "b78ead41f3de26e9121140f001f0bd2199890de8cc31b517724322c7ee968ad0",
+    "change": "Unchanged.",
+    "original_sha256": "b78ead41f3de26e9121140f001f0bd2199890de8cc31b517724322c7ee968ad0",
+    "structure_sha256": "801f834bfd836e45ef14269083791fc0ebda5b1cd8a1c85c8cec1ba0fbf0342f"
+  },
+  {
+    "stage": "detect",
+    "name": "gd_endpoint_indices_from_intermediate_image",
+    "sha256": "883547697a2f6d51cb11f61bfd6253a0b1dc0d9a4e9971e1f08b020c48659d1d",
+    "change": "Unchanged.",
+    "original_sha256": "883547697a2f6d51cb11f61bfd6253a0b1dc0d9a4e9971e1f08b020c48659d1d",
+    "structure_sha256": "883547697a2f6d51cb11f61bfd6253a0b1dc0d9a4e9971e1f08b020c48659d1d"
+  },
+  {
+    "stage": "detect",
+    "name": "_gd_bincount",
+    "sha256": "5dca218a5c7a2cb6b411eccea7b2f635c4d9545fbec7ff1aacee4c238a52284b",
+    "change": "Unchanged.",
+    "original_sha256": "5dca218a5c7a2cb6b411eccea7b2f635c4d9545fbec7ff1aacee4c238a52284b",
+    "structure_sha256": "5dca218a5c7a2cb6b411eccea7b2f635c4d9545fbec7ff1aacee4c238a52284b"
+  },
+  {
+    "stage": "detect",
+    "name": "_gd_bool_count",
+    "sha256": "e4a5eb5f0f5f461c55ef20d9fca970d9abcbb24d85c51edd36c0dd1d2d173581",
+    "change": "Unchanged.",
+    "original_sha256": "e4a5eb5f0f5f461c55ef20d9fca970d9abcbb24d85c51edd36c0dd1d2d173581",
+    "structure_sha256": "e4a5eb5f0f5f461c55ef20d9fca970d9abcbb24d85c51edd36c0dd1d2d173581"
+  },
+  {
+    "stage": "detect",
+    "name": "_gd_unique_valid_support_counts_by_site",
+    "sha256": "54f7b78909168454b633ab920bf8e8a8086f2ae10690b64b4f89c083f80aa5ab",
+    "change": "Unchanged.",
+    "original_sha256": "54f7b78909168454b633ab920bf8e8a8086f2ae10690b64b4f89c083f80aa5ab",
+    "structure_sha256": "54f7b78909168454b633ab920bf8e8a8086f2ae10690b64b4f89c083f80aa5ab"
+  },
+  {
+    "stage": "detect",
+    "name": "_gd_const_object",
+    "sha256": "e9c27893d91a5fb16be0aa22bd3f0ff160258fd1a862e073aae84cad67b0089a",
+    "change": "Unchanged.",
+    "original_sha256": "e9c27893d91a5fb16be0aa22bd3f0ff160258fd1a862e073aae84cad67b0089a",
+    "structure_sha256": "e9c27893d91a5fb16be0aa22bd3f0ff160258fd1a862e073aae84cad67b0089a"
+  },
+  {
+    "stage": "detect",
+    "name": "gd_build_flow_mapped_site_tables",
+    "sha256": "988ac00c69da9ed815a7efdd3250b5ad76633210fcd7125fffb63ad6ad68bcb7",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "5916406f0c700d20ec017becaf492dbe3ad8b06dc93b8e94483e63728f7ec405",
+    "structure_sha256": "729825ee1774d3191ea1a5837adc244e9c59d8896102e52fa29404df7175a538"
+  },
+  {
+    "stage": "detect",
+    "name": "gd_screen_sites_by_flow_density",
+    "sha256": "27d751170c21a6c1bf320db27bbe8125939d01e8aa9faebfe2a485b2a8d68813",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "bc493ecda21975e3b76e15185d83490a51125e1aa213da9a3522878896d24a8e",
+    "structure_sha256": "728a92c0ce70b785f3f740800f078ba7dcf58f1e4a1084cc7bfda6a251e38c1b"
+  },
+  {
+    "stage": "detect",
+    "name": "gd_concat_frame_csvs",
+    "sha256": "b7b8cf1fee7d942de1854b08c021e20997455bf1733ce074fa42ca419f6c4f52",
+    "change": "Unchanged.",
+    "original_sha256": "b7b8cf1fee7d942de1854b08c021e20997455bf1733ce074fa42ca419f6c4f52",
+    "structure_sha256": "52aa1dc641419f905126046a1a9f7903df1d5abbc1758ea542f0c416ca3ce478"
+  },
+  {
+    "stage": "detect",
+    "name": "optimize_all_intermediate_gaussian_frames",
+    "sha256": "69b14b56b3ddbe5caec87d90efb3e50d9a7a18424feedefd8b8a3a7863219357",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "398d1dc2c278ce3468b09879bcf4f4bfd00d16146d94d2a4610fdea2813c551a",
+    "structure_sha256": "16cab2410c1f6722588e6bdca4e5f4f106322527757d13d840bbef5e2da7217a"
+  },
+  {
+    "stage": "proportions",
+    "name": "ctp_safe_name",
+    "sha256": "38355e0896cab0993ecb2f64f92312bbea907e12884a0e26e1d01d7a80157c03",
+    "change": "Unchanged.",
+    "original_sha256": "38355e0896cab0993ecb2f64f92312bbea907e12884a0e26e1d01d7a80157c03",
+    "structure_sha256": "4e7cc89c3c80c24ab4fd09777d22e7ae1ae407f0717a15665f18a0281cffd46b"
+  },
+  {
+    "stage": "proportions",
+    "name": "ctp_norm_slice_id",
+    "sha256": "43712b9e6fb488c2618fbd02c4be6cbc293bcfa593db7731421c3bf134ca6190",
+    "change": "Unchanged.",
+    "original_sha256": "43712b9e6fb488c2618fbd02c4be6cbc293bcfa593db7731421c3bf134ca6190",
+    "structure_sha256": "9f671cbce72bfc349a50b364f89c92b00d901437c9817f7075905d59bbcadadb"
+  },
+  {
+    "stage": "proportions",
+    "name": "ctp_parse_pair",
+    "sha256": "6b96ca153acaf7b638c7f45723fb78155d1d67e5d7e22c6bb64bd7d8a778a252",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "80d3d94fcb83d043756e97ec348b6405bc614fd63905e509688ca1c4b1007074",
+    "structure_sha256": "1b10ebfc8d0082cb10026944f44fe1ff0de9fc9d679695df85a3dc56b5e2f570"
+  },
+  {
+    "stage": "proportions",
+    "name": "ctp_resolve_output_key",
+    "sha256": "b4cbb00c2f943eb863e98a280031dbcd81986093ee1afb05a8959506faa9b6f5",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "cc2942a6b7a725b539e9781f5c242c3ff6034e4985be4b15466b9d8e481d88ae",
+    "structure_sha256": "20fb041f9eccdc0d603c2289f853b4dd3b3be20030be919b835daa659b7b32ff"
+  },
+  {
+    "stage": "proportions",
+    "name": "ctp_required_columns",
+    "sha256": "16dc4ace94b6e042fad257c702988ed2b9ff1202f2b5ba5efe6d60613cca37bd",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "e9417260f2f5e6690b7c521d98309ec459994fabd45bf12c17bd54ed8ab147ce",
+    "structure_sha256": "b227775d47750bf0a2661c5ce39810568c6a532e726c281e0ca3dc1975ea36d3"
+  },
+  {
+    "stage": "proportions",
+    "name": "_ctp_const",
+    "sha256": "6f79be2e0f63bfa68826c3461f985961486ae34cbcdca145168204c5d441debf",
+    "change": "Unchanged.",
+    "original_sha256": "6f79be2e0f63bfa68826c3461f985961486ae34cbcdca145168204c5d441debf",
+    "structure_sha256": "6f79be2e0f63bfa68826c3461f985961486ae34cbcdca145168204c5d441debf"
+  },
+  {
+    "stage": "proportions",
+    "name": "_ctp_clear_attrs",
+    "sha256": "6adabcc47a120f0ee3310960b1b1a0d76a577784304ae3478f3dbc18959e3efb",
+    "change": "Unchanged.",
+    "original_sha256": "6adabcc47a120f0ee3310960b1b1a0d76a577784304ae3478f3dbc18959e3efb",
+    "structure_sha256": "6adabcc47a120f0ee3310960b1b1a0d76a577784304ae3478f3dbc18959e3efb"
+  },
+  {
+    "stage": "proportions",
+    "name": "_ctp_offset_code",
+    "sha256": "bb9bf8102b299fe8fc9aee599c8f250ebe0b5f188bf84c15dee05672af5e71c6",
+    "change": "Unchanged.",
+    "original_sha256": "bb9bf8102b299fe8fc9aee599c8f250ebe0b5f188bf84c15dee05672af5e71c6",
+    "structure_sha256": "bb9bf8102b299fe8fc9aee599c8f250ebe0b5f188bf84c15dee05672af5e71c6"
+  },
+  {
+    "stage": "proportions",
+    "name": "ctp_make_neighborhood_offsets",
+    "sha256": "11d0e0b3d0b03d0ffcb573bc48606f04670f952ca211cf5d7ec6ccce4a1e8aa6",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "c8f705f9152910d967e7552850cfe592ea11cd5e4999940751f37079e7aba966",
+    "structure_sha256": "4d8c328fb13ac73a4eeda8123b745a4b575244495d24f1ac775e9b6d63e9c9b0"
+  },
+  {
+    "stage": "proportions",
+    "name": "_ctp_prepare_previous_mapping",
+    "sha256": "9fb636f052e7957c2fc5eaa24dd68fbb953dad717db2f412453d111b91b8344d",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "6ea61db02d70480b4c109b8884d0ce031585846815d1910132af7496858edec7",
+    "structure_sha256": "1e941938b9bf002679ec380f4c5afcedc990aca243853bc1c40a208994371145"
+  },
+  {
+    "stage": "proportions",
+    "name": "_ctp_reuse_frame_mapping",
+    "sha256": "f4ce44924894048e5eae78834e0b5ac4abdbadcd24d9f62dfe88f042eb56d2a0",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "e751bc8dfb8b7227d99827a10626bd919500d85ce4c2054562f2c9f7a94f74af",
+    "structure_sha256": "4d6c5d0b07f27190ff249cd8859218a3ed34ae58e55869c937f42cb77e5c3c6f"
+  },
+  {
+    "stage": "proportions",
+    "name": "build_flow_tables_from_integer_count_maps",
+    "sha256": "b1dbfb55efb7c1d827ad69eb502662c7052a407d4f177d6d85a11b167c71b4ee",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "d76943c6a964a8c6014c55fc15bb0d7db299a0398334411d9677282cad9aa451",
+    "structure_sha256": "f7cb5f2f88c71d976bcf980fdaefc61f373e3bb02cce11f1eb17ae8569cdd39c"
+  },
+  {
+    "stage": "proportions",
+    "name": "ctp_get_count_maps",
+    "sha256": "337c183ae7c173bdc771163e1f79d35755abf9e254222b551a6c55f9e9d42aad",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "30c4740b510cd4ae52770a1132f61a02076739c7fb35f0872c596b536ea3904c",
+    "structure_sha256": "e52439c0de18032f3372779542f3ab98e2759819fbd70320de0ef4c5dfeb6fde"
+  },
+  {
+    "stage": "proportions",
+    "name": "_ctp_get_maps",
+    "sha256": "b3675be1952c3a6b3c16cfb80ecb7310c63e651f3250191600aa216b9a6a6792",
+    "change": "Unchanged.",
+    "original_sha256": "b3675be1952c3a6b3c16cfb80ecb7310c63e651f3250191600aa216b9a6a6792",
+    "structure_sha256": "b3675be1952c3a6b3c16cfb80ecb7310c63e651f3250191600aa216b9a6a6792"
+  },
+  {
+    "stage": "proportions",
+    "name": "_ctp_prepare_site_codes",
+    "sha256": "3ae30cbc21155786d35c221daf3df1e50ff636f433d45c0b6c84e1e232449c0b",
+    "change": "Unchanged.",
+    "original_sha256": "3ae30cbc21155786d35c221daf3df1e50ff636f433d45c0b6c84e1e232449c0b",
+    "structure_sha256": "d2199ab247fae795978cc97a7972bc5d814fa2172f5ec4859e4ab0f42a97877a"
+  },
+  {
+    "stage": "proportions",
+    "name": "_ctp_aggregate_side_bilinear",
+    "sha256": "bc1be59acf68d392921557e053425254d4fd44316aca79aacb56c30b1e08ec46",
+    "change": "Unchanged.",
+    "original_sha256": "bc1be59acf68d392921557e053425254d4fd44316aca79aacb56c30b1e08ec46",
+    "structure_sha256": "500418d4240ca350488a8464671ec1519a01c1a36f9e3ffb9d72546f91ba1488"
+  },
+  {
+    "stage": "proportions",
+    "name": "ctp_resolve_model_result_root",
+    "sha256": "0a8084444a7aac8cea877e72d02cacb206802460d55c2f6769a4ed0ae0a28153",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "e93c4adaaba8e3e3e9b1de495c0fc70ea3f27f85c3b23b189b63db5acd7404c5",
+    "structure_sha256": "0d4aea0c99b3ca9bd8f74d7f5852480489669be5417b9711ac367c227076895e"
+  },
+  {
+    "stage": "proportions",
+    "name": "ctp_load_frame_masks",
+    "sha256": "a465bce024e10fe50a9bd1887d781f91b980e97d6ff7df58563f629894144a55",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "cf2a36007a42d6a89f96f5180ed2d4bcb75320459683e0fec317ea95bff399dd",
+    "structure_sha256": "f7ab3757d0cdd4e05fbaad8f80ed48b01096c6a342746e210b2dde00aac9bcb6"
+  },
+  {
+    "stage": "proportions",
+    "name": "ctp_compute_site_mask_weights",
+    "sha256": "fb02c418f304cb5daed90216b2a055e9fc9b8ff2806a3af3044814953412e7c7",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "dbee48c8bd7cffd008b3b517b75f6f3e0763d40eef07476d042180300c17cb0d",
+    "structure_sha256": "9c1a7d25b555a78faa138476a01fae2dbafcf0c106d145209f5b98512b0b3f66"
+  },
+  {
+    "stage": "proportions",
+    "name": "ctp_process_one_frame",
+    "sha256": "d67cce4a7a0d5be3e020472a67b6ad325c5c487ebb4efacc3108ba0e5303ebd3",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "c1da504c29388d944bc0754fc1a8dd516c4abdc9c266d45f50ede49952293d9d",
+    "structure_sha256": "66a9040baa6bfaaabdaa704e1346667df7e40e9dd999b7874992a08e6a27a5bd"
+  },
+  {
+    "stage": "proportions",
+    "name": "compute_flow_celltype_proportions",
+    "sha256": "f3763d395e1a707fec48d3ee72eb42133d52f1090665a798db4130a3efc9b695",
+    "change": "Unchanged.",
+    "original_sha256": "f3763d395e1a707fec48d3ee72eb42133d52f1090665a798db4130a3efc9b695",
+    "structure_sha256": "f0dce123b76d1e4e7d098e6829a2ba59f5852a94091e3dbf0672cf497a19a1a7"
+  },
+  {
+    "stage": "optimize",
+    "name": "opt_balanced_round",
+    "sha256": "011587faab1e3dc27eb6706bfebbaf7c4c096e185941bf9d48ba68ab9180554f",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "23d1e401772d96f773fc33564c5adceb01082dfa5e3fde57f31fadff0ca5c29e",
+    "structure_sha256": "e64fcf6aa88390f0c9a604a776d6c3f37f95811793b5ab3de1f590a7342d7eba"
+  },
+  {
+    "stage": "optimize",
+    "name": "opt_patch_starts",
+    "sha256": "420184b87d89261a92b26ab7486c0b0b40327a1379365aed50bec2c2f64018ce",
+    "change": "Unchanged.",
+    "original_sha256": "420184b87d89261a92b26ab7486c0b0b40327a1379365aed50bec2c2f64018ce",
+    "structure_sha256": "6606e6062bebdb4bb6f05bfff4a8de582f66f3d393a3265d7b98064ba56dc845"
+  },
+  {
+    "stage": "optimize",
+    "name": "opt_abs_pwl_points",
+    "sha256": "00556bdf7521a307442867a6a1a457fa57cb5bfef4fd9bceed634410304c2b8b",
+    "change": "Unchanged.",
+    "original_sha256": "00556bdf7521a307442867a6a1a457fa57cb5bfef4fd9bceed634410304c2b8b",
+    "structure_sha256": "00556bdf7521a307442867a6a1a457fa57cb5bfef4fd9bceed634410304c2b8b"
+  },
+  {
+    "stage": "optimize",
+    "name": "opt_check_cell_count_conservation",
+    "sha256": "911d255ec1ad378735fb1b57977d4fa0940c60a38a9bea74169ed3b3a97e748b",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "8ccae4eea2b4d730b37931a80bcd83b750c9173af02b12a625f591444460755a",
+    "structure_sha256": "6b1ca08e24781e94e615fa2c29cc3390b1dc7d6d450cc11cf0b78b2f002f7e21"
+  },
+  {
+    "stage": "optimize",
+    "name": "opt_build_patch_data",
+    "sha256": "514211e63f99fc2667a4dc5afa9c48b5050641f549e67baeb94d048e4408f81d",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "a24607cc114144ae59aedd2cf8d69592c3ee7a4f01e9462ece929388504b6572",
+    "structure_sha256": "c53b805b892e041bc0f869fbc5e67bea5e6c7e485223a064397ea8490d68796f"
+  },
+  {
+    "stage": "optimize",
+    "name": "opt_prepare_frame",
+    "sha256": "3e6424b316a5a02e6221efb4d07180ecfbb71743c9a68b4876b5965c23d12757",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "eb089b9f62271f0541c8bebe1677727c57030e44636e63150e44d5e334b3d1b5",
+    "structure_sha256": "8a18b7d77a5e30699dccb029d863ef73b6976b61c700123c8171779ed966198f"
+  },
+  {
+    "stage": "optimize",
+    "name": "opt_prepare_all_frames",
+    "sha256": "f933d6435c08c7f8a3743b9e63513f315e604b492386d27468fdf87013e908e6",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "d6b7e9f8e9c46167a5e23c558884bd1656890af3e8b8ca698f8c20fe5e4cf5db",
+    "structure_sha256": "3b5831a58ee4b52c893a0505f095b45accc1e90c822fc1867cff395a7144c0c6"
+  },
+  {
+    "stage": "optimize",
+    "name": "opt_build_network_arcs",
+    "sha256": "f8b20773ec25f109973766cc366c106d4fac3504a6e2ddb6ff5455f7cd4a4425",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "89fa3638b7ade1302e10fc6849be9fdfb84224f3e6b434bb12f0099a9abb3392",
+    "structure_sha256": "a40a84dac0b6017370a1b4f932c296e933aed8c9b22a5e308e8654cea2b51c85"
+  },
+  {
+    "stage": "optimize",
+    "name": "opt_solve_network_warm",
+    "sha256": "59c570163e2966f2596cdc332528558d4db18f18174489203637bfba65ef4f21",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "d2336064ec26f50ce754dd6b07fe7e6e7ae8798b5ce0ca78d1d5d609f4a53229",
+    "structure_sha256": "57abbe67042a0c77086149d1e062eacb584fafddf700bf3d0491a8f4c4405ff1"
+  },
+  {
+    "stage": "optimize",
+    "name": "opt_local_rounding",
+    "sha256": "3b1b7eed73e7256c80b733bab6c4bf473c4893cf7439fae09235238704030785",
+    "change": "Unchanged.",
+    "original_sha256": "3b1b7eed73e7256c80b733bab6c4bf473c4893cf7439fae09235238704030785",
+    "structure_sha256": "3b1b7eed73e7256c80b733bab6c4bf473c4893cf7439fae09235238704030785"
+  },
+  {
+    "stage": "optimize",
+    "name": "opt_build_candidate_data",
+    "sha256": "311bb752db1cb671280e32758702189b671e18c15bc949aa222bddfcd35e53ea",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "ccd3b224dfa2690e1f0e33327eb6b026cc2b7b1ccb660ed25f43618f9528287d",
+    "structure_sha256": "6d2ca9999df13d26250deef525c8a2dfea75933f45e8ae5089b20fb4eee1e637"
+  },
+  {
+    "stage": "optimize",
+    "name": "opt_solve_gurobi",
+    "sha256": "7a435d5981a77893c0f8b421cce334b33a231c6d9c80c7bd99608fcbb298fb46",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "cd0824997ed6bd48010955fa1b570296c8f6b03955645c0dff56c050f378edcd",
+    "structure_sha256": "8f592d1192cf374b29aadcc16c58782258865de347637d7dfe253c396ad364f1"
+  },
+  {
+    "stage": "optimize",
+    "name": "opt_build_outputs",
+    "sha256": "3e56d1dd5154a49d23aa5130b5d4e5c9eea98f9ac31b41b4fc4d1be1ea9d509a",
+    "change": "Unchanged.",
+    "original_sha256": "3e56d1dd5154a49d23aa5130b5d4e5c9eea98f9ac31b41b4fc4d1be1ea9d509a",
+    "structure_sha256": "22130a4e8dcc950b1156d53b88eae474320d3a5a1925a51f558a0997f138e7d4"
+  },
+  {
+    "stage": "optimize",
+    "name": "optimize_celltypes",
+    "sha256": "9906e102a2f5844bed108631440883d307ceab031227d6c3eabf684e62fcdc88",
+    "change": "Optional solver dispatch and solver-backend metadata; original preparation and output assembly retained.",
+    "original_sha256": "81b25b198251106f6d611f55e38185cce7362538d05039890fa02bc9a3654aa7",
+    "structure_sha256": "03423e863e6656fe2670abff23c147716d3944052b486dcf98da10f8540e3653"
+  },
+  {
+    "stage": "coordinates",
+    "name": "coord_grid_transform",
+    "sha256": "69ce5d813ed59a498301751d786d54edcee2b7d9b67b02902fee69b091f405dc",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "68b7cc5d22cf55e8a98c0d59693c86555cfb3deef514e8a937d238f7611b4e87",
+    "structure_sha256": "62d8e9cd9822a6ffab235f8090731f6c3f46b94b34efecdc0909c29fd4058068"
+  },
+  {
+    "stage": "coordinates",
+    "name": "coord_sample_in_pixel",
+    "sha256": "1b1262bbde98a32598c48b009c4a5c71f5f1d15f829ce21b3dd38c801f336a43",
+    "change": "Unchanged.",
+    "original_sha256": "1b1262bbde98a32598c48b009c4a5c71f5f1d15f829ce21b3dd38c801f336a43",
+    "structure_sha256": "1b1262bbde98a32598c48b009c4a5c71f5f1d15f829ce21b3dd38c801f336a43"
+  },
+  {
+    "stage": "coordinates",
+    "name": "coord_build_neighborhood_lookup",
+    "sha256": "652faa074724a75eb2cccac88ce879098339f0a395eb642bd266948baba5bc36",
+    "change": "Unchanged.",
+    "original_sha256": "652faa074724a75eb2cccac88ce879098339f0a395eb642bd266948baba5bc36",
+    "structure_sha256": "09ca795c41fe2ad3377498e49bdea0fe9bccdb89ecaabd48b71aa211f32f6bec"
+  },
+  {
+    "stage": "coordinates",
+    "name": "coord_sample_neighborhood_points",
+    "sha256": "f41850753aadf07f184daa52b176bb8f25a3511b38d611c28bdb712457e0c37e",
+    "change": "Unchanged.",
+    "original_sha256": "f41850753aadf07f184daa52b176bb8f25a3511b38d611c28bdb712457e0c37e",
+    "structure_sha256": "82b4ece5f4dc5afbf7954fbb86d4126b44ca582da44c7862ce3770cbd2597e8d"
+  },
+  {
+    "stage": "coordinates",
+    "name": "generate_singlecell_coordinates",
+    "sha256": "216c93a6c2d81a63f5b8bdd11d4ddf7c47d15f7f20cf835dd572bf4088df3c50",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "a35fc9d3669ef59db744b7b4b739dd7e3d41fa1190bfaf6b5f1b1655db2b3ff6",
+    "structure_sha256": "7dfd7b7358c1612f2e51dc4a983679dd38d9b773f0cc3e26b0b82fe12ae4b970"
+  },
+  {
+    "stage": "coordinates",
+    "name": "coord_estimate_axis_spacing",
+    "sha256": "ab0b1636fff751fa7f49e23469d1955da2148420c290b08d0e744736015dca46",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "21186599404d000acee7a64ac839373a10458cb9ace5771606b8e40e90bd934a",
+    "structure_sha256": "dfe8ecc4ec25e5a52d530e420c9f3e259eb690be2cf48046cc5816830ab4fb40"
+  },
+  {
+    "stage": "coordinates",
+    "name": "coord_estimate_bin_spacing",
+    "sha256": "8337ef435c4518ee9ac0627cda02f409cd161f065ae6ca6b891175e9e65cc045",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "fbcb5d9dd3f3caabf65490d69f2a83ccac1d9d5f3e79c87e45521a00d95f47cb",
+    "structure_sha256": "764199280feaee12abd9f7754c1007f87407419a0eae85c6f060436dbe03007d"
+  },
+  {
+    "stage": "coordinates",
+    "name": "coord_optimize_phase",
+    "sha256": "1f605aec61ad120f2e346dd2d6bd1fd2d9023e467c2746cfeca149a655dbf794",
+    "change": "Unchanged.",
+    "original_sha256": "1f605aec61ad120f2e346dd2d6bd1fd2d9023e467c2746cfeca149a655dbf794",
+    "structure_sha256": "1f605aec61ad120f2e346dd2d6bd1fd2d9023e467c2746cfeca149a655dbf794"
+  },
+  {
+    "stage": "coordinates",
+    "name": "coord_assign_unique_bins",
+    "sha256": "f335030560fb05843a75696a84f2da4e1e16b239c4b2ff0c08555ee0e05dc90b",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "b425d0e107ca4b18f95717e9ca184e0372482a3c1e87509a2d42097000cedfb7",
+    "structure_sha256": "298f296cbb40e454e7aa184d84cfcc8fe72a64a48790f02d3e066c80226eca00"
+  },
+  {
+    "stage": "coordinates",
+    "name": "generate_bin_coordinates",
+    "sha256": "e73490449f272cb1193e806a020000a91d5091f9b8965a9b643783b5998fa105",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "9b43cd7d01e8e3d7760424f229b4f85d4f1e9f4fe469459617eacb3eef8337d1",
+    "structure_sha256": "f49cfa9697f8a2ebb46c12f8366f5f06b185b3e0b4cd1776f417fe40ba3ecf2b"
+  },
+  {
+    "stage": "depth",
+    "name": "z_density",
+    "sha256": "494fe20ec1aba746d11dd620b6adc3b428bcbea5b33f4a70d8066f5a541e607f",
+    "change": "Unchanged.",
+    "original_sha256": "494fe20ec1aba746d11dd620b6adc3b428bcbea5b33f4a70d8066f5a541e607f",
+    "structure_sha256": "7a92ca893aefdd6a644b92e2fbe3591372f86ad3bd838e92aa0103facbae6a91"
+  },
+  {
+    "stage": "depth",
+    "name": "z_sample_density",
+    "sha256": "7a295e8a9329ba28cfd5c468d3795cd485df3dedfa0920bb369eaaf76be1f673",
+    "change": "Unchanged.",
+    "original_sha256": "7a295e8a9329ba28cfd5c468d3795cd485df3dedfa0920bb369eaaf76be1f673",
+    "structure_sha256": "59b287e82678eb93787f957894f41d920d290b9b4cc17424fc108196d26aeb8a"
+  },
+  {
+    "stage": "depth",
+    "name": "generate_continuous_z",
+    "sha256": "03e801127b04e9fad34284edb608ac759bd0aa20f9cef1a6b3d043d187ce6702",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "8b86804884030d0f5c126ef748277fd331ac2672d863db3ea75fd88dc4fb4e84",
+    "structure_sha256": "46144b6742e107e72cb70662baeb1f9112ad513f66412f75680d88e6123eba0c"
+  },
+  {
+    "stage": "anndata",
+    "name": "adata_resolve_real_key",
+    "sha256": "7c41f8a16892500625c0007b004fcd38daa0d9d72eebae6b31744a0f5cb713b2",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "3c08b862d550387989c2d66bdb8d4f763858f4b34b3a488d9c243ece00dc7899",
+    "structure_sha256": "92c8651a34ae405505cbcbcdc93def408214b3d9f9a3fc9688ea5d74c36a999e"
+  },
+  {
+    "stage": "anndata",
+    "name": "adata_spatial_to_pixel",
+    "sha256": "7a2ea291ab34fd10df6add70eb7cd3c4d73bdcfcacbe235dde5256d6dc201f0e",
+    "change": "Unchanged.",
+    "original_sha256": "7a2ea291ab34fd10df6add70eb7cd3c4d73bdcfcacbe235dde5256d6dc201f0e",
+    "structure_sha256": "7a2ea291ab34fd10df6add70eb7cd3c4d73bdcfcacbe235dde5256d6dc201f0e"
+  },
+  {
+    "stage": "anndata",
+    "name": "prepare_cells_for_anndata",
+    "sha256": "072a0faabf37d6e16e696cc6ec2ef03f095d096155fdb4822116386e9c6a114b",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "f650b761492ba7a0b29ae159d1586b3caa5955741d9696ee6208f4b2d8da4060",
+    "structure_sha256": "4ea242f16342de6a8df8e0cb06752f3dc489dfe5501ec5f58d819fb212a2e700"
+  },
+  {
+    "stage": "anndata",
+    "name": "add_z_to_real_endpoints",
+    "sha256": "a8d696b61d1cb8e932031cd16adf7b52223a2aa22b870f3c8409aa2ec8493e7e",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "327774ea04e8642d5e86cfb9cb1d890e4a25a97e2d69d6b53d3ca8275dab5dd5",
+    "structure_sha256": "62cb7d7bcb563d2b3f3dd34a562841a9a430a50cafc90583b2e6988ad6143812"
+  },
+  {
+    "stage": "anndata",
+    "name": "cells_to_anndata_dict",
+    "sha256": "b7e34eb66d14f72e5b92b8b05dbe0aa0c020e74c1cd18988334cac50da0098f9",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "324b8dec07ada20707d5ddce4bf9285a400364d7c2afcc2c2cfa4b55cfdd529f",
+    "structure_sha256": "e28ec174cdafde201ad792d62302c49414196dd2f0369ebff13d6054bcf83671"
+  },
+  {
+    "stage": "expression",
+    "name": "expr_assert_finite",
+    "sha256": "c3c27e78ac71fbd16d0bbaf07c4d9c6895f075fcf1447e8798f42a222b7ad5ff",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "b4f74f722cafcfdcc5522a44a1f9f585fe5dc352fedfabc15678f6f4f4bd5b9f",
+    "structure_sha256": "c558ba3b76035a1d065ce988ec4c1042b3c4e5cd25215165107fd02ac9d71c51"
+  },
+  {
+    "stage": "expression",
+    "name": "expr_prepare_flow_df",
+    "sha256": "b5aa829c21f6f9ce8c9e1385c387044b7388f2ba649acafc2f2be3a5e729044b",
+    "change": "Unchanged.",
+    "original_sha256": "b5aa829c21f6f9ce8c9e1385c387044b7388f2ba649acafc2f2be3a5e729044b",
+    "structure_sha256": "a1d821af269742ed64bad0f4cdf4de0f4d65e11c4c32efdb0141e6daa5c8ebca"
+  },
+  {
+    "stage": "expression",
+    "name": "expr_build_real_cache",
+    "sha256": "e2f5c895551bfa2da8e963bae7d6b2df7b50230e1620663f557d0df8e8dfc2bf",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "1b777c2d4db1244bce8ad2cecab59c37516ee2278ba809e385b90dd4d70e10a8",
+    "structure_sha256": "930df680551f05f914e644deec0f0675f8dd79db11bc90f57eb365deb99c7c8f"
+  },
+  {
+    "stage": "expression",
+    "name": "expr_same_type_pixel_mean",
+    "sha256": "4368d8edb6b6df5242774c828a779e2b8a47fe42dd98184a0d6c2206d4770db7",
+    "change": "Unchanged.",
+    "original_sha256": "4368d8edb6b6df5242774c828a779e2b8a47fe42dd98184a0d6c2206d4770db7",
+    "structure_sha256": "9e1201fecf02a7547ea161e0eb2421fcbd9dba66cf05700ec70dcf009a48a05d"
+  },
+  {
+    "stage": "expression",
+    "name": "expr_propagate_side",
+    "sha256": "094ce19a87ca3790b43e990a4a164e49323e52f0c007162739349a3ae64018b8",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "5097e0106c223fcd153b0c4853a155904223f69cd8bfd0f187a0c014c0ad5a66",
+    "structure_sha256": "83bb69747f72973dc17ca2296382329ffd7110c4925c4b2bcf7f87999cb47f92"
+  },
+  {
+    "stage": "expression",
+    "name": "expr_neighbor_features",
+    "sha256": "81f4dd001c98b1ad38bead3c8a7bf7561705ab2430091b2a64b7deefdc5e789f",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "00ddd7bda22eb68795b7ab08c91a9b0eca4900fd577c7b446465b7861b0b3c7d",
+    "structure_sha256": "cf1d52ecf481a21453711de8a7216facaecb925c4cd8c072c1ff3c4125ccc25a"
+  },
+  {
+    "stage": "expression",
+    "name": "expr_normalize_features",
+    "sha256": "a50b7195405e70c82141f9ed8073c0af2a4720993edf190bd2aa6e9d62ed24a1",
+    "change": "Unchanged.",
+    "original_sha256": "a50b7195405e70c82141f9ed8073c0af2a4720993edf190bd2aa6e9d62ed24a1",
+    "structure_sha256": "a50b7195405e70c82141f9ed8073c0af2a4720993edf190bd2aa6e9d62ed24a1"
+  },
+  {
+    "stage": "expression",
+    "name": "expr_similarity_probability",
+    "sha256": "6d89e243c88d9098591802cb548b17cda4fe8424c7594f24a772e4d709933e33",
+    "change": "Unchanged.",
+    "original_sha256": "6d89e243c88d9098591802cb548b17cda4fe8424c7594f24a772e4d709933e33",
+    "structure_sha256": "6d89e243c88d9098591802cb548b17cda4fe8424c7594f24a772e4d709933e33"
+  },
+  {
+    "stage": "expression",
+    "name": "expr_sample_features",
+    "sha256": "488e30c7f6f8110d58a4b6b3f692b2edf432acf406a271b539bc80c888d88c46",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "5d7a984b8615b399f3ba19c5ec4f5144077afc4d412a782e0a4cdbd04e563d75",
+    "structure_sha256": "d0a1c7fcf2d6147146889d2b56b3ffc13ab7c9bdf7c5b586f73b80ea453b94a3"
+  },
+  {
+    "stage": "expression",
+    "name": "expr_apply_fallback",
+    "sha256": "e628d68f1419a2fd762bf103fbf91d39c747af4adf74e71544a5edc341cce9ed",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "99b1e50acb01b78495cc56480639dd54cdd92c299211637088c6078294ebafe9",
+    "structure_sha256": "17394ba0683cfd3afa178d2423ec841ab06e140cb0991f829b608b01dcfd23ba"
+  },
+  {
+    "stage": "expression",
+    "name": "expr_common_features",
+    "sha256": "f746ed6a46d7a0526791e03331cf85b731ad38884aa31fcfcc0969cc971d02e3",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "8f352034644322e3e471839bd859537f38ffedc633b16365835b68685c898cbc",
+    "structure_sha256": "3940e5958c49645386c8069ee104b3ba6d71bfc1e02da6be198a51b51b3d1261"
+  },
+  {
+    "stage": "expression",
+    "name": "expr_build_pair_cache",
+    "sha256": "e7a84632415c9c3bf0f73274c8946a15a8d7c276e4d82b36d8469cf7ee32d7b6",
+    "change": "Unchanged.",
+    "original_sha256": "e7a84632415c9c3bf0f73274c8946a15a8d7c276e4d82b36d8469cf7ee32d7b6",
+    "structure_sha256": "0692abe05527c5084cfe9293ae6f0b58a8dd18436a737d29ce6293898001d702"
+  },
+  {
+    "stage": "expression",
+    "name": "expr_fusion_weights",
+    "sha256": "52e68471e3ac4b9df6fcc87e29a00d7bbd02b25b968279b65ceedc711d578ef2",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "3496f0878d4d6b6eda38dc6efa62c80bebe5b5491cb21f55151c72ccf60fb239",
+    "structure_sha256": "d994511889085c81f4a8f1a3000f3fa2bdddbe9bd424defda2ec4e5978264e71"
+  },
+  {
+    "stage": "expression",
+    "name": "expr_fuse_same_omics",
+    "sha256": "bfbb101c52803a2d423037bc029c17b630776f7d1333d69bca13847a29ec1667",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "e5fbd4eab6c1b6725df801f63eaa176f6edb0fc32633b876e0241333f20102d7",
+    "structure_sha256": "9d4da578dac6a3778d56a46f4d2398b63ee14b88868736c7911545200fd00fed"
+  },
+  {
+    "stage": "expression",
+    "name": "expr_predict_middle",
+    "sha256": "c18fa08469d4de248c56e5112963f3dc0d70fe786bbb07792fd0a882a539a32e",
+    "change": "English docstrings and diagnostic strings only.",
+    "original_sha256": "b00a19cd806f211e3b14391f6fc4c3caf8de45cc12de73a4ea87b59ea3dd7a80",
+    "structure_sha256": "8a76fd10e8936a809430d0bee968b66da9e73d909f1c7fc314c0cfbc7e3dc0b7"
+  },
+  {
+    "stage": "expression",
+    "name": "expr_predict_real_missing",
+    "sha256": "bb6ae14a6579f82d7261f9f2e8298ca1c2bb093fbd85fea882de74cd26096125",
+    "change": "Unchanged.",
+    "original_sha256": "bb6ae14a6579f82d7261f9f2e8298ca1c2bb093fbd85fea882de74cd26096125",
+    "structure_sha256": "3ca83f073fbaa73de19e66f7d1e039ee00e8261bd02be76c21f1d6781acf08c2"
+  }
+]
